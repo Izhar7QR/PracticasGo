@@ -1,8 +1,8 @@
 package client_one
 
-import "github.com/Izhar7QR/PracticasGo/Practica/singleton/singleton.go"
+import "practicas/Practica/singleton"
 
-func incrementAge() {
+func IncrementAge() {
 	p := singleton.GetInstance()
 	p.IncrementAge()
 }
